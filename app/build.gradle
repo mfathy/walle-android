@@ -43,6 +43,7 @@ dependencies {
     implementation dependencies.androidx.navigation_fragment_ktx
     implementation dependencies.androidx.navigation_ui_ktx
     implementation dependencies.google.material
+    implementation dependencies.google.gson
     implementation dependencies.kotlin.kotlin_std_library
 
     testImplementation dependencies.testing.junit_four
