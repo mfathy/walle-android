@@ -1,0 +1,11 @@
+ext {
+
+    config = [
+            compileSdkVersion : 30,
+            minSdkVersion: 21,
+            targetSdkVersion: 30,
+            versionCode: 1,
+            versionName: "0.0"
+    ]
+
+}
