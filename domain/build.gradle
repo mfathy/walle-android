@@ -1,0 +1,16 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    def dependencies = rootProject.ext
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation dependencies.kotlin.kotlin_std_library
+    implementation dependencies.reactivex.rx_android
+    implementation dependencies.reactivex.rx_java2
+    implementation dependencies.reactivex.rx_kotlin
+    implementation dependencies.google.dagger
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
